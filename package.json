@@ -1,0 +1,29 @@
+{
+  "name": "fileobj",
+  "version": "0.0.0",
+  "description": "Serialization, parsing, and saving objects to and from a file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frostme/fileobj.git"
+  },
+  "keywords": [
+    "file",
+    "object",
+    "serialize",
+    "json",
+    "data"
+  ],
+  "author": "M. Elliot Frost",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frostme/fileobj/issues"
+  },
+  "homepage": "https://github.com/frostme/fileobj",
+  "dependencies": {
+    "guid": "0.0.12"
+  }
+}

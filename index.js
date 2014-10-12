@@ -16,6 +16,12 @@ module.exports = function(dirname){
         fs.writeFile([dirname, id].join('/'), JSON.stringify(obj), function(err){
           cb(err, id);
         });
+      },
+
+      all: function(cb){
+        rs.readdir(dirname, function(err, files){
+          cb(err, files);
+        });
       }
     };
   } else {

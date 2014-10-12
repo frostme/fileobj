@@ -42,7 +42,7 @@ fileObj.read(id, cb);
 fileObj.all(cb);
 ```
 
-- _cb_ : callback that accept one parameter, ids (array of id's of all files).
+- _cb_ : callback that accept two parameters, err ids (array of id's of all files).
 
 ## Author
 M. Elliot Frost, CEO and President of [Frostware Technical Solutions, LLC](http://www.frostwaresolutions.net)
